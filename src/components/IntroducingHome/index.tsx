@@ -16,7 +16,7 @@ const Index = () => {
     setFlippedCardId((prev) => (prev === cardId ? null : cardId));
   }, []);
 
-  const navigateHome = () => {
+  const navigateCreate = () => {
     router.push("/create-card");
   };
 
@@ -62,7 +62,7 @@ const Index = () => {
               </h2>
               <div className="flex gap-2">
                 
-                <motion.button initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }} onClick={navigateHome} className="hover:shadow-[0_1px_15px_rgb(254,89,234)] transition-all duration-300 cursor-pointer flex justify-center gap-4 items-center py-4 px-6 md:px-8 text-black font-medium rounded-4xl" style={{ background: "linear-gradient(39deg, rgb(254, 89, 234), rgb(255, 241, 204))" }}>
+                <motion.button initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 2 }} onClick={navigateCreate} className="hover:shadow-[0_1px_15px_rgb(254,89,234)] transition-all duration-300 cursor-pointer flex justify-center gap-4 items-center py-4 px-6 md:px-8 text-black font-medium rounded-4xl" style={{ background: "linear-gradient(39deg, rgb(254, 89, 234), rgb(255, 241, 204))" }}>
                   <div className="font-bold text-xl md:text-2xl text-white whitespace-nowrap">Tạo ngay</div>
                   <FontAwesomeIcon icon={faArrowRight} className="text-sm md:w-6 md:h-6 text-white" />
                 </motion.button>

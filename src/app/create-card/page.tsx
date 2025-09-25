@@ -89,7 +89,7 @@ const Index = () => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
-                className="py-3 px-6 font-semibold text-white rounded-xl"
+                className="cursor-pointer py-3 px-6 font-semibold text-white rounded-xl"
                 style={{
                   background: "linear-gradient(39deg, rgb(254, 89, 234), rgb(255, 241, 204))",
                 }}
