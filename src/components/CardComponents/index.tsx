@@ -32,7 +32,7 @@ const CardComponents = (props: Card) => {
         return <CardOne {...props} />;
     }
   };
-  return <div>{returnCard()}</div>;
+  return <div>{returnCard()}</div>
 };
 
 export default CardComponents;
