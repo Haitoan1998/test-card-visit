@@ -46,15 +46,15 @@ const CardTwo = (props: Card) => {
           </div>
           <div>
             <ul className="text-white text-right flex flex-col gap-2  items-end">
-              <motion.li initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.4 }} className="flex items-center gap-2 w-full">
+              <motion.li initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.4 }} className="flex items-center gap-2 w-full justify-end">
                 <p className="text-line text-nowrap font-light text-base lg:text-[9px] xl:text-[14px] 2xl:text-base">{props.phone || "Phone Number"}</p>
                 <FontAwesomeIcon icon={faPhone} className="text-base lg:text-[7px] xl:text-[14px] 2xl:text-base w-7 h-6 text-[#EE8A47]" />
               </motion.li>
-              <motion.li initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} className="flex items-center gap-2 w-full">
+              <motion.li initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.6 }} className="flex items-center gap-2 w-full justify-end">
                 <p className="text-line text-nowrap font-light text-base lg:text-[9px] xl:text-[14px] 2xl:text-base">{props.email || "Email Address"}</p>
                 <FontAwesomeIcon icon={faEnvelope} className="text-base lg:text-[7px] xl:text-[14px] 2xl:text-base w-7 h-6 text-[#EE8A47]" />
               </motion.li>
-              <motion.li initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.8 }} className="flex items-center gap-2 w-full">
+              <motion.li initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: 0.8 }} className="flex items-center gap-2 w-full justify-end">
                 <p className="text-line text-nowrap font-light text-base lg:text-[9px] xl:text-[14px] 2xl:text-base">{props.website || "Website"}</p>
                 <FontAwesomeIcon icon={faAddressCard} className="text-base lg:text-[7px] xl:text-[14px] 2xl:text-base w-7 h-6 text-[#EE8A47]" />
               </motion.li>
