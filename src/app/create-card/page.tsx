@@ -106,7 +106,7 @@ const Index = () => {
                 if (card.id === Number(selectedTemplateId)) {
                   return (
                     <div key={card.id}>
-                      <CardComponents {...allValues} id={card.id} imageFront={card.imageFront} imageBack={card.imageBack} />;
+                      <CardComponents {...allValues} id={card.id} imageFront={card.imageFront} imageBack={card.imageBack} />
                     </div>
                   );
                 }
