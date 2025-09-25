@@ -24,9 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}>
+        <video autoPlay loop muted playsInline className="fixed top-0 left-0 w-full h-full object-cover -z-10">
+          <source src="/video-bg.mp4" type="video/mp4" />
+        </video>
+
         {children}
       </body>
     </html>
